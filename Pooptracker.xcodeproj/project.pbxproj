@@ -11,6 +11,18 @@
 		523C11EC291A3F7100FD9111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C11EB291A3F7100FD9111 /* ContentView.swift */; };
 		523C11EE291A3F7200FD9111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C11ED291A3F7200FD9111 /* Assets.xcassets */; };
 		523C11F1291A3F7200FD9111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C11F0291A3F7200FD9111 /* Preview Assets.xcassets */; };
+		523C11F8291A3FBA00FD9111 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C11F7291A3FBA00FD9111 /* AuthManager.swift */; };
+		523C1205291A467600FD9111 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 523C1204291A467600FD9111 /* FirebaseAuth */; };
+		523C1207291A467600FD9111 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 523C1206291A467600FD9111 /* FirebaseFirestore */; };
+		523C1209291A49D900FD9111 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523C1208291A49D900FD9111 /* GoogleService-Info.plist */; };
+		523C120D291A4BEC00FD9111 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C120C291A4BEC00FD9111 /* LoginScreen.swift */; };
+		523C1210291A4E4B00FD9111 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C120F291A4E4B00FD9111 /* SignInWithAppleButton.swift */; };
+		523C1212291A519800FD9111 /* ChildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C1211291A519800FD9111 /* ChildManager.swift */; };
+		523C1215291A51EF00FD9111 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C1214291A51EF00FD9111 /* Child.swift */; };
+		523C1218291AABDD00FD9111 /* ChildDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C1217291AABDD00FD9111 /* ChildDetail.swift */; };
+		523C121A291B00AD00FD9111 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C1219291B00AD00FD9111 /* SheetView.swift */; };
+		523C121E291D915700FD9111 /* FeedingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C121D291D915700FD9111 /* FeedingList.swift */; };
+		523C1220291D965600FD9111 /* DiaperList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C121F291D965600FD9111 /* DiaperList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,17 @@
 		523C11EB291A3F7100FD9111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		523C11ED291A3F7200FD9111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523C11F0291A3F7200FD9111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		523C11F7291A3FBA00FD9111 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		523C11F9291A3FDB00FD9111 /* Pooptracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pooptracker.entitlements; sourceTree = "<group>"; };
+		523C1208291A49D900FD9111 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		523C120C291A4BEC00FD9111 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		523C120F291A4E4B00FD9111 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		523C1211291A519800FD9111 /* ChildManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildManager.swift; sourceTree = "<group>"; };
+		523C1214291A51EF00FD9111 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		523C1217291AABDD00FD9111 /* ChildDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDetail.swift; sourceTree = "<group>"; };
+		523C1219291B00AD00FD9111 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		523C121D291D915700FD9111 /* FeedingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingList.swift; sourceTree = "<group>"; };
+		523C121F291D965600FD9111 /* DiaperList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaperList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C1205291A467600FD9111 /* FirebaseAuth in Frameworks */,
+				523C1207291A467600FD9111 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +62,7 @@
 			children = (
 				523C11E8291A3F7100FD9111 /* Pooptracker */,
 				523C11E7291A3F7100FD9111 /* Products */,
+				523C1203291A467600FD9111 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +77,16 @@
 		523C11E8291A3F7100FD9111 /* Pooptracker */ = {
 			isa = PBXGroup;
 			children = (
+				523C1213291A51E100FD9111 /* Models */,
+				523C120A291A4BCC00FD9111 /* Screens */,
+				523C1208291A49D900FD9111 /* GoogleService-Info.plist */,
+				523C11F9291A3FDB00FD9111 /* Pooptracker.entitlements */,
 				523C11E9291A3F7100FD9111 /* PooptrackerApp.swift */,
 				523C11EB291A3F7100FD9111 /* ContentView.swift */,
 				523C11ED291A3F7200FD9111 /* Assets.xcassets */,
 				523C11EF291A3F7200FD9111 /* Preview Content */,
+				523C11F7291A3FBA00FD9111 /* AuthManager.swift */,
+				523C1211291A519800FD9111 /* ChildManager.swift */,
 			);
 			path = Pooptracker;
 			sourceTree = "<group>";
@@ -65,6 +97,74 @@
 				523C11F0291A3F7200FD9111 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		523C1203291A467600FD9111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		523C120A291A4BCC00FD9111 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				523C1216291AABD000FD9111 /* ChildDetail */,
+				523C120B291A4BDE00FD9111 /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		523C120B291A4BDE00FD9111 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				523C120E291A4E3E00FD9111 /* Views */,
+				523C120C291A4BEC00FD9111 /* LoginScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		523C120E291A4E3E00FD9111 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				523C120F291A4E4B00FD9111 /* SignInWithAppleButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		523C1213291A51E100FD9111 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				523C1214291A51EF00FD9111 /* Child.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		523C1216291AABD000FD9111 /* ChildDetail */ = {
+			isa = PBXGroup;
+			children = (
+				523C121C291D90A400FD9111 /* FeedingsList */,
+				523C121B291D909600FD9111 /* DiapersList */,
+				523C1217291AABDD00FD9111 /* ChildDetail.swift */,
+				523C1219291B00AD00FD9111 /* SheetView.swift */,
+			);
+			path = ChildDetail;
+			sourceTree = "<group>";
+		};
+		523C121B291D909600FD9111 /* DiapersList */ = {
+			isa = PBXGroup;
+			children = (
+				523C121F291D965600FD9111 /* DiaperList.swift */,
+			);
+			path = DiapersList;
+			sourceTree = "<group>";
+		};
+		523C121C291D90A400FD9111 /* FeedingsList */ = {
+			isa = PBXGroup;
+			children = (
+				523C121D291D915700FD9111 /* FeedingList.swift */,
+			);
+			path = FeedingsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +183,10 @@
 			dependencies = (
 			);
 			name = Pooptracker;
+			packageProductDependencies = (
+				523C1204291A467600FD9111 /* FirebaseAuth */,
+				523C1206291A467600FD9111 /* FirebaseFirestore */,
+			);
 			productName = Pooptracker;
 			productReference = 523C11E6291A3F7100FD9111 /* Pooptracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,9 @@
 				Base,
 			);
 			mainGroup = 523C11DD291A3F7100FD9111;
+			packageReferences = (
+				523C11FC291A411400FD9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 523C11E7291A3F7100FD9111 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				523C11F1291A3F7200FD9111 /* Preview Assets.xcassets in Resources */,
+				523C1209291A49D900FD9111 /* GoogleService-Info.plist in Resources */,
 				523C11EE291A3F7200FD9111 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C1210291A4E4B00FD9111 /* SignInWithAppleButton.swift in Sources */,
+				523C121A291B00AD00FD9111 /* SheetView.swift in Sources */,
 				523C11EC291A3F7100FD9111 /* ContentView.swift in Sources */,
+				523C120D291A4BEC00FD9111 /* LoginScreen.swift in Sources */,
+				523C1220291D965600FD9111 /* DiaperList.swift in Sources */,
+				523C1218291AABDD00FD9111 /* ChildDetail.swift in Sources */,
+				523C11F8291A3FBA00FD9111 /* AuthManager.swift in Sources */,
+				523C1212291A519800FD9111 /* ChildManager.swift in Sources */,
+				523C1215291A51EF00FD9111 /* Child.swift in Sources */,
+				523C121E291D915700FD9111 /* FeedingList.swift in Sources */,
 				523C11EA291A3F7100FD9111 /* PooptrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pooptracker/Pooptracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pooptracker/Preview Content\"";
@@ -293,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pooptracker/Pooptracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pooptracker/Preview Content\"";
@@ -339,6 +458,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		523C11FC291A411400FD9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		523C1204291A467600FD9111 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 523C11FC291A411400FD9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		523C1206291A467600FD9111 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 523C11FC291A411400FD9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 523C11DE291A3F7100FD9111 /* Project object */;
 }
